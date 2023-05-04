@@ -66,7 +66,7 @@ public class Calculator {
         engine.setInput(args);
         engine.compute();
 
-        System.out.println("The result of " +  engineName + " is " + engine.getResult() + ".");
+        System.out.println("The result of " +  engineName + " is " + engine.getResult() + "!!!");
 
     }
 
