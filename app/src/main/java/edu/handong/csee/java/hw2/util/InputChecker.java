@@ -26,7 +26,7 @@ public class InputChecker {
      * @param engineName
      */
     public static void printErrorMessageForNegativeInputsAndExit(String engineName){
-        System.out.println("The input value cannot be negative for " + engineName.toUpperCase() + ".");
+        System.out.println("The input value cannot be negative for " + engineName.toUpperCase() + "!!!");
         System.exit(1);
     }
 }
