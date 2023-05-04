@@ -18,7 +18,7 @@ public class InputChecker {
      * @param numOfRequiredMinInput
      */
     public static void printErrorMessageForTheNumberOfMinimumRequiredInputsAndExit(String engineName, int numOfRequiredMinInput){
-        System.out.println("You need at least " + numOfRequiredMinInput + " input values for " + engineName.toUpperCase() + ".");
+        System.out.println("You need at least " + numOfRequiredMinInput + " input values for " + engineName.toUpperCase() + "!!!");
         System.exit(1);
     }
     /**
